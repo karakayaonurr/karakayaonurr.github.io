@@ -140,8 +140,8 @@
                             <div class="section-title">
                                 <div class="main-title">
                                     <div class="title-main-page">
-                                        <h4>Hakkımda</h4>
-                                        <p>Onur Karakaya kimdir?</p>
+                                        <h4>About Me</h4>
+                                        <p>Who is Onur Karakaya?</p>
                                     </div>
                                 </div>
                             </div>
@@ -1629,7 +1629,7 @@
                                             <input name="user_name" id="name" type="text" placeholder="Name / Surname:" required autocomplete="off">
                                             <input name="user_email" id="email" type="email" placeholder="Email:" required autocomplete="off">
                                             <textarea name="message" id="comment" placeholder="Message:" required rows="6"></textarea>
-                                            <input class="bt-submit" type="submit" value="Send The Message">
+                                            <input class="bt-submit" type="submit" value="Send Mail">
                                         </form>
                                     </div>
                                 </div>
@@ -1696,9 +1696,9 @@
 
     $('#contact-form').on('submit', function(event) {
         event.preventDefault(); // prevent reload
-        $('#show_contact_msg').html('<div class=loading>Mail Gönderiliyor..</div>');
+        $('#show_contact_msg').html('<div class=loading>Mail Sending..</div>');
         var formData = new FormData(this);
-        formData.append('service_id', 'service_curozgg');
+        formData.append('service_id', 'onurkarakayacomtr');
         formData.append('template_id', 'template_r151iz8');
         formData.append('user_id', 'H1khWggJKtHBwQ6IM');
     
